@@ -4,7 +4,7 @@ const path=require('path');
 
 const app=express();
 app.get("/",function(req,resp){
-resp.sendFile(path.join(__dirname,"/public/index.html"));
+resp.sendFile(path.join(__dirname,"/Public/index.html"));
 })
 
 app.listen(3000);
